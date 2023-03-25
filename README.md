@@ -1,8 +1,6 @@
 # GPTme-Impersonating-your-writing-style
 
-
 We’re creating a chatbot that will generate personalized responses for a person. The bot asks to provide a conversation text file from the user, along with some questions as follows - 
-
 
 -Conversation text file
 -Question asker
@@ -14,7 +12,7 @@ Post which the bot would generate the response in impersonated person’s style 
 
 ## Ideation
 
-At times we face dilemmas or fall short of time to respond to some questions asked in chats. But sadly, only we can complete our thoughts ourselves. Here is where our product comes to the rescue and provides a personalized way of responding to questions in any style we want. We’re using chatGPT’s API to generate prompts personalized to an individual's unique style of writing and providing a service for it on streamlit. 
+At times we face dilemmas or fall short of time to respond to some questions asked in chats. But sadly, only we can complete our thoughts ourselves. Here is where our product comes to the rescue and provides a personalized way of responding to questions in any style we want. We’re using chatGPT’s API for model [GPT3.5-turbo](https://platform.openai.com/docs/guides/chat) to generate prompts personalized to an individual's unique style of writing and providing a service for it on streamlit. 
 
 ## Included Features - 
 
@@ -39,6 +37,8 @@ At times we face dilemmas or fall short of time to respond to some questions ask
 ``` 
 run streamlit_main.py
 ```
+
+**Note:** We have currently limited the chat history text upto 1000 letters to be vigilant about API costs, but can be increased as per the usecase.
 
 ## Demo 
 ![alt text](Demo.png)
