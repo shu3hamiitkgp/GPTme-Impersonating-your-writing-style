@@ -18,7 +18,7 @@ At times we face dilemmas or fall short of time to respond to some questions ask
 
 ## Included Features - 
 
--Friend chat - emulate response to chat
+- Friend chat - emulate response to chat
 - Analogy maker 
 - Sarcastic response generator 
 
@@ -29,3 +29,6 @@ At times we face dilemmas or fall short of time to respond to some questions ask
 - Response in the third person
 - Micro horror story generator 
 - Create a science fiction book list
+
+## Demo 
+![alt text](Demo.png)
