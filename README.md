@@ -30,5 +30,15 @@ At times we face dilemmas or fall short of time to respond to some questions ask
 - Micro horror story generator 
 - Create a science fiction book list
 
+## Steps to reproduce - 
+
+- clone the repo
+- ADD OPENAI_API_KEY in streamlit_main.py
+- create a venv and install requirement.txt
+- run the following command to up the streamlit app
+``` 
+run streamlit_main.py
+```
+
 ## Demo 
 ![alt text](Demo.png)
