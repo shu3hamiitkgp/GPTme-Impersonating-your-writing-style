@@ -2,11 +2,11 @@
 
 We’re creating a chatbot that will generate personalized responses for a person. The bot asks to provide a conversation text file from the user, along with some questions as follows - 
 
--Conversation text file
--Question asker
--Question
--Impersonate whom?
--Style of response
+- Conversation text file
+- Question asker
+- Question
+- Impersonate whom?
+- Style of response
 
 Post which the bot would generate the response in impersonated person’s style with an additional style of response like sarcastic, analogy, etc. 
 
