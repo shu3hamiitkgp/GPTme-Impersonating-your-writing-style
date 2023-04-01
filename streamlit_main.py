@@ -108,5 +108,9 @@ else:
         asker = st.selectbox("Ask as", df['Author'].unique())
         type = st.selectbox( "Type", ["Sarcastic", "Normal",  "Anaology"])
         if st.button("Ask"):
-            reply, message_history = chat(conversation_upd[1:1000] + '\n' + asker + ": " + qn + " \n Can you create a response in " + impersonate + "'s writing style In " + type + "format?", message_history)
-            st.write(reply)
+            if type=='Normal':
+                reply, message_history = chat(conversation_upd[1:1000] + '\n' + asker + ": " + qn + " \n Can you create a response in " + impersonate + "'s writing style? ", message_history)
+                st.write(reply)
+            else:
+                reply, message_history = chat(conversation_upd[1:1000] + '\n' + asker + ": " + qn + " \n Can you create a response in " + impersonate + "'s writing style In " + type + "format?", message_history)
+                st.write(reply)
