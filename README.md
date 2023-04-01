@@ -35,7 +35,7 @@ At times we face dilemmas or fall short of time to respond to some questions ask
 - create a venv and install requirement.txt
 - run the following command to up the streamlit app
 ``` 
-run streamlit_main.py
+streamlit run streamlit_main.py
 ```
 
 **Note:** We have currently limited the chat history text upto 1000 letters to be vigilant about API costs, but can be increased as per the usecase.
